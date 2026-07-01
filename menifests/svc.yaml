@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc-deploy-1
+  name: svc-deploy-2
 spec:
   type: ClusterIP
   selector:
