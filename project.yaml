@@ -7,8 +7,8 @@ spec:
   description: Project for frontend team apps   # Optional description
 
    # Allow Application CRs from the argocd namespace
-  sourceNamespaces:
-    - argocd
+  # sourceNamespaces:
+    # - argocd 
 
   sourceRepos:                 # Which Git repos are allowed for this Project
     - https://github.com/VivekDandyan32/argo-demo-2.git
